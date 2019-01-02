@@ -1,0 +1,13 @@
+.btn-left{
+    position: relative;
+    top: 0.1em;
+    left: 0.1em;
+}
+
+.songs-display{
+    justify-content: left;
+    align-items: left;
+    justify-content: center;
+    height: 10em;
+    width:auto;
+}
