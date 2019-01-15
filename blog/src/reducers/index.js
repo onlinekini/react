@@ -1,4 +1,5 @@
 import {combineReducers} from 'redux'
+import postsReducer from './postsReducer'
+import usersReducer from './usersReducer'
 
-
-export default combineReducers({replaceMe : () => 'Hello World' })
+export default combineReducers({posts:postsReducer, users:usersReducer })
