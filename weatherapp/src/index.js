@@ -47,7 +47,12 @@ class App extends React.Component {
         }
 
         if(!this.state.errMsg && this.state.lat){
-            return (<div> <SeasonDisplay lat={this.state.lat} /> <Clock currTime={this.state.currTime}/> </div>)
+            return (
+                <div> 
+                    <SeasonDisplay lat={this.state.lat} /> 
+                    <Clock currTime={this.state.currTime}/> 
+                </div>
+                )
         }
         
         return <Spinner message="please accept location request"/>
